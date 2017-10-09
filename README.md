@@ -1,7 +1,7 @@
 # Assignment 5
 ## Shaun Bartschi
 All Software Manual entries are implemented in the Software manual on github, userid bart3251
-1. Vector Norm1 implemented in C++:
+1) Vector Norm1 implemented in C++:
 
 ```C++
 #include <cmath>
@@ -18,7 +18,7 @@ double vnorm1(vector <double> v){
 }
 ```
 
-2. Vector Norm2 implemented in C++:
+2) Vector Norm2 implemented in C++:
 
 ```C++
 #include <cmath>
@@ -35,7 +35,7 @@ double vnorm2(vector <double> v){
 }
 ```
 
-3.Vector Norm Infinite implemented in C++:
+3)Vector Norm Infinite implemented in C++:
 
 ```C++
 #include <cmath>
@@ -52,7 +52,7 @@ double vnorminf(vector <double> v){
 }
 ```
 
-4. Matrix Norm1 implemented in C++:
+4) Matrix Norm1 implemented in C++:
 
 ```C++
 #include <cmath>
@@ -78,7 +78,7 @@ double mnorm1(vector<vector<double> > m){
         return vnorminf(n);
 }
 ```
-5. Matrix Norm Infinite implemented in C++:
+5) Matrix Norm Infinite implemented in C++:
 
 ```C++
 #include <cmath>
@@ -103,7 +103,7 @@ double mnorminf(vector<vector<double> > m){
 }
 ```
 
-6. Vector Error 1 implemented in C++:
+6) Vector Error 1 implemented in C++:
 
 ```C++
 #include <vector>
@@ -116,7 +116,7 @@ double verror1(vector<double> x, vector<double> y){
         return vnorm1(x-y);
 }
 ``` 
-7. Vector Error 2 implemented in C++:
+7) Vector Error 2 implemented in C++:
 
 ```C++
 #include <vector>
@@ -130,7 +130,7 @@ double verror2(vector<double> x, vector<double> y){
 }
 ```
 
-8. Vector Error Infinite implemented in C++:
+8) Vector Error Infinite implemented in C++:
 
 ```C++
 #include <vector>
@@ -144,7 +144,7 @@ double verrorinf(vector<double> x, vector<double> y){
 }
 ```
 
-9. Matrix Addition implemented in C++:
+9) Matrix Addition implemented in C++:
 
 ```C++
 #include <vector>
@@ -166,7 +166,7 @@ vector<vector<double> > madd(vector<vector<double> > x, vector<vector<double> > 
 }
 ```
 
-10. Matrix Subtraction implemented in C++:
+10) Matrix Subtraction implemented in C++:
 
 ```C++
 #include <vector>
@@ -188,7 +188,7 @@ vector<vector<double> > msub(vector<vector<double> > x, vector<vector<double> > 
 }
 ```
 
-11. Matrix-Vector Product implemented in C++:
+11) Matrix-Vector Product implemented in C++:
 
 ```C++
 #include <vector>
@@ -204,7 +204,7 @@ vector<double> mvp(vector<vector<double> > m,vector <double> v){
 }
 ```
 
-12. Matrix-Matrix Product implemented in C++:
+12) Matrix-Matrix Product implemented in C++:
 
 ```C++
 #include <vector>
