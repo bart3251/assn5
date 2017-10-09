@@ -1,7 +1,8 @@
 # Assignment 5
 ## Shaun Bartschi
 All Software Manual entries are implemented in the Software manual on github, userid bart3251
-Problem 1- Vector Norm1 implemented in C++:
+
+1) Vector Norm1 implemented in C++: <br />
 
 ```C++
 #include <cmath>
