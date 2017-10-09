@@ -2,6 +2,7 @@
 ## Shaun Bartschi
 All Software Manual entries are implemented in the Software manual on github, userid bart3251
 1. Vector Norm1 implemented in C++:
+
 ```C++
 #include <cmath>
 #include <vector>
@@ -16,7 +17,9 @@ double vnorm1(vector <double> v){
         return norm;
 }
 ```
+
 2. Vector Norm2 implemented in C++:
+
 ```C++
 #include <cmath>
 #include <vector>
@@ -31,7 +34,9 @@ double vnorm2(vector <double> v){
         return sqrt(norm);
 }
 ```
+
 3.Vector Norm Infinite implemented in C++:
+
 ```C++
 #include <cmath>
 #include <vector>
@@ -46,7 +51,9 @@ double vnorminf(vector <double> v){
         return norm;
 }
 ```
+
 4. Matrix Norm1 implemented in C++:
+
 ```C++
 #include <cmath>
 #include <vector>
@@ -72,6 +79,7 @@ double mnorm1(vector<vector<double> > m){
 }
 ```
 5. Matrix Norm Infinite implemented in C++:
+
 ```C++
 #include <cmath>
 #include <vector>
@@ -94,7 +102,9 @@ double mnorminf(vector<vector<double> > m){
         return vnorminf(n);
 }
 ```
+
 6. Vector Error 1 implemented in C++:
+
 ```C++
 #include <vector>
 #include "vnorm1.h"
@@ -107,6 +117,7 @@ double verror1(vector<double> x, vector<double> y){
 }
 ``` 
 7. Vector Error 2 implemented in C++:
+
 ```C++
 #include <vector>
 #include "vnorm2.h"
@@ -118,7 +129,9 @@ double verror2(vector<double> x, vector<double> y){
         return vnorm2(x-y);
 }
 ```
+
 8. Vector Error Infinite implemented in C++:
+
 ```C++
 #include <vector>
 #include "vnorminf.h"
@@ -130,7 +143,9 @@ double verrorinf(vector<double> x, vector<double> y){
         return vnorminf(x-y);
 }
 ```
+
 9. Matrix Addition implemented in C++:
+
 ```C++
 #include <vector>
 using namespace std;
@@ -150,7 +165,9 @@ vector<vector<double> > madd(vector<vector<double> > x, vector<vector<double> > 
         return z;
 }
 ```
+
 10. Matrix Subtraction implemented in C++:
+
 ```C++
 #include <vector>
 using namespace std;
@@ -170,7 +187,9 @@ vector<vector<double> > msub(vector<vector<double> > x, vector<vector<double> > 
         return z;
 }
 ```
+
 11. Matrix-Vector Product implemented in C++:
+
 ```C++
 #include <vector>
 #include "dot.h"
@@ -184,7 +203,9 @@ vector<double> mvp(vector<vector<double> > m,vector <double> v){
         return p;
 }
 ```
+
 12. Matrix-Matrix Product implemented in C++:
+
 ```C++
 #include <vector>
 #include "dot.h"
